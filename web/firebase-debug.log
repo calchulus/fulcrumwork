@@ -1,0 +1,43 @@
+[debug] [2017-07-27T21:25:26.228Z] ----------------------------------------------------------------------
+[debug] [2017-07-27T21:25:26.230Z] Command:      /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2017-07-27T21:25:26.230Z] CLI Version:  3.9.1
+[debug] [2017-07-27T21:25:26.230Z] Platform:     darwin
+[debug] [2017-07-27T21:25:26.230Z] Node Version: v6.11.1
+[debug] [2017-07-27T21:25:26.231Z] Time:         Thu Jul 27 2017 16:25:26 GMT-0500 (CDT)
+[debug] [2017-07-27T21:25:26.231Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-07-27T21:25:26.242Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-07-27T21:25:26.242Z] > authorizing via signed-in user
+[debug] [2017-07-27T21:25:26.244Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-07-27T21:25:26.244Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/R_q0sk0F1JyiR4EBlc2KoBOqozVViLhdpIlQSMGfSmU',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Thu Jul 27 2017 16:25:26 GMT-0500 (CDT)
+[debug] [2017-07-27T21:25:26.378Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-27T21:25:26.396Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/firetest-414ed  
+ Thu Jul 27 2017 16:25:26 GMT-0500 (CDT)
+[debug] [2017-07-27T21:25:26.854Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-27T21:25:26.855Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/firetest-414ed/tokens  
+ Thu Jul 27 2017 16:25:26 GMT-0500 (CDT)
+[debug] [2017-07-27T21:25:27.337Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/calvinchu/Downloads/friendlychat/web'...
+[info] 
+[debug] [2017-07-27T21:25:27.340Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/firetest-414ed  
+ Thu Jul 27 2017 16:25:27 GMT-0500 (CDT)
+[debug] [2017-07-27T21:25:27.487Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-27T21:25:27.488Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/293301388873/clients/_:getWebAppConfig  
+ Thu Jul 27 2017 16:25:27 GMT-0500 (CDT)
+[debug] [2017-07-27T21:25:27.817Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5000 is not available. Trying another port...
+[debug] [2017-07-27T21:25:27.837Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/firetest-414ed  
+ Thu Jul 27 2017 16:25:27 GMT-0500 (CDT)
+[debug] [2017-07-27T21:25:28.088Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-27T21:25:28.089Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/293301388873/clients/_:getWebAppConfig  
+ Thu Jul 27 2017 16:25:28 GMT-0500 (CDT)
+[debug] [2017-07-27T21:25:28.402Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./
+[info] ✔  hosting: Local server: http://localhost:5004
+
